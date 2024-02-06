@@ -96,7 +96,7 @@ a {
 
 .account-btn:hover {
     
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.508);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.508);
     background-color: #f17b21f2;
     cursor: pointer;
 }
@@ -308,7 +308,7 @@ a {
 
     background-color: #ffffff;
     color: #0B2110;
-
+    transition: box-shadow 0.3s ease;
     
     /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.364); */
 }
