@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Hidden default checkbox */
+.toggle-checkbox {
+    display: none;
+}
+
+/* Styling the toggle switch container */
+.toggle-container {
+    position: relative;
+}
+
+/* Styling the toggle switch */
+.toggle-label {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling the toggle switch when checked */
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #4CAF50;
+}
+
+/* Styling the toggle switch handle */
+.toggle-label::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 50%;
+    left: 2px;
+    top: 2px;
+    transition: transform 0.3s ease;
+}
+
+/* Moving the toggle switch handle to the right when checked */
+.toggle-checkbox:checked + .toggle-label::before {
+    transform: translateX(30px);
+}

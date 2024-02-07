@@ -426,7 +426,7 @@ a {
     margin: 0 auto;
 }
 
-/* TOGGLER MONTH/YEAR */
+/*! TOGGLER MONTH/YEAR */
 
 .subscription-option {
     margin: 4rem auto;
@@ -456,24 +456,26 @@ a {
     background-color: #F17C21;
     color: white;   
     margin: 0;
-    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.5s ease;
 }
 
 .yearly {
     color: #627065;
     margin: 0; 
-    transition: color 0.4s ease, background-color 0.4s ease;
+    transition: color 0.2s ease-in-out, background-color 0.5s ease;
 }
 
 
 .monthly-onchange {
     background-color: white;
     color: #627065;
+    /* transform: translateX(100%); */
 }
 
 .yearly-onchange {
     background-color: #F17C21;
     color: white;
+    /* transform: translateX(-100%); */
 }
 
 
