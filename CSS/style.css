@@ -96,7 +96,8 @@ a {
 
 .account-btn:hover {
     
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.508);
+    box-shadow: 5px 5px 20px #05427B;
+    ;
     background-color: #f17b21f2;
     cursor: pointer;
 }
@@ -309,9 +310,10 @@ a {
     background-color: #ffffff;
     color: #0B2110;
     transition: box-shadow 0.3s ease;
+    border: 2px solid white;
     
-    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.364); */
 }
+
 
 .subscribe-card:hover{
     
@@ -346,21 +348,26 @@ a {
 
 .btn-get-started {
     background-color: #ffffff;
-    border: 2px solid #0B2110;
+    border: 2px solid #5e605e;
     color: #0B2110;
-    padding: 0.55rem 1.35rem; 
+    padding: 0.45rem 1.15rem; 
     border-radius: 0.65rem;
 
     transition: color 0.2s ease, background-color 0.2s ease;
+
 }
 
 .btn-get-started:hover {
     /* border: 2px solid #0B2110; */
     /* background-color: #0B2110;
     color: white; */
-
+    background-color: #000000;
+    color: white;
+    border: 2px solid #000000;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.364);
+    cursor: pointer;
 }
+
 
 .get-started-link {
     font-weight: 500;
@@ -387,6 +394,7 @@ a {
 
 .subscription-plans .subscribe-card:nth-child(2){
     background-color: rgb(241, 124, 33, 5%);
+    border: none;
 }
 
 .subscription-plans .subscribe-card:nth-child(4){
@@ -400,8 +408,20 @@ a {
 
 .subscribe-card:nth-child(2) .btn-get-started {
     background-color: #F17C21;
-    border: none;
+    border: 2px solid #F17C21;
     color: white;
+}
+
+.subscribe-card:nth-child(2) .btn-get-started:hover {
+    
+    background-color: #279188;
+    border: 2px solid #279188;
+    color: white;
+}
+
+.subscribe-card:nth-child(1) .subscribe-card-paragraph {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* TOGGLER MONTH/YEAR */
@@ -409,9 +429,9 @@ a {
 .subscription-option {
     margin: 4rem auto;
     padding: 0.65rem 0.5rem;
-    border-radius: 1.45rem;
-    max-width: 17%;
-    font-size: 0.975rem;
+    border-radius: 1.65rem;
+    width: 150px;
+    font-size: 0.75rem;
     font-weight: 500;
     background-color: white;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.284);
@@ -419,28 +439,28 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0;
 }
 
 .btn {
     background-color: white;  
     cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1.95rem;
+    margin: 0;
 }
 
 .monthly {
     background-color: #F17C21;
     color: white;   
-    padding: 0.25rem 1.2rem;
-    border-radius: 1.95rem;
     margin: 0;
-    transition: color 0.4s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
 
 .yearly {
     color: #627065;
-    padding: 0.25rem 1.2rem;
-    border-radius: 1.95rem;
     margin: 0; 
-    transition: color 0.4s ease, background-color 0.2s ease;
+    transition: color 0.4s ease, background-color 0.4s ease;
 }
 
 
