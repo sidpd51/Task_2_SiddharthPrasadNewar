@@ -42,7 +42,7 @@ a {
 }
 
 .container {
-    width: 85%;
+    width: 80%;
     max-width: 1260px;
     margin: 0 auto;
 }
@@ -147,17 +147,25 @@ a {
     border-radius: 0.45rem;
 
     background-color: #F17C21;
+    color: white;
     font-weight: 500;
 }
 
-.hero-intro-btn-link{
-    color: #ffffff;
+.hero-intro-btn:hover {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.317);
     transition: color 0.2s ease;
+    cursor: pointer;
 }
 
-.hero-intro-btn-link:hover{
-    color: #ffffffc5;
+.hero-intro-btn-link{
+    color: inherit;
 }
+
+/* .hero-intro-btn-link:hover{
+    color: #ffffffc5;
+    cursor: pointer;
+} */
+
 
 /* COURSE CARD  */
 
